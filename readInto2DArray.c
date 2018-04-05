@@ -7,14 +7,14 @@ int main(){
    {
       for(j=0;j<9;j++)
       {
-         scanf("%d", &disp[i][j]);
+         scanf("%d", &puzzle[i][j]);
       }
    }
    for(i=0; i<9; i++)
    {
       for(j=0;j<9;j++)
       {
-         printf("%d ", disp[i][j]);
+         printf("%d ", puzzle[i][j]);
          if(j==8)
          {
             printf("\n");
